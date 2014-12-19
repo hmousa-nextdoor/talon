@@ -3,11 +3,11 @@ import logging
 import regex as re
 
 from talon.utils import get_delimiter
-from talon.signature.constants import (SIGNATURE_MAX_LINES,
-                                       TOO_LONG_SIGNATURE_LINE)
 
 log = logging.getLogger(__name__)
 
+SIGNATURE_MAX_LINES = 11
+TOO_LONG_SIGNATURE_LINE = 60
 
 # regex to fetch signature based on common signature words
 RE_SIGNATURE = re.compile(r'''
