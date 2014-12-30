@@ -27,6 +27,7 @@ setup(name='talon',
           "nose==1.2.1",
           "mock",
           "coverage",
+          "pyml==0.7.9",
           "flanker"
           ]
       )
